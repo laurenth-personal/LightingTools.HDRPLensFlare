@@ -97,7 +97,7 @@ v2f vert(appdata v)
 
 	float3 cameraUp = normalize(mul(UNITY_MATRIX_V, float4(0, 1, 0, 0))).xyz;
 
-	float4 extent = TransformWorldToHClip(GetCameraRelativePositionWS(v.worldPosRadius.xyz + cameraUp * v.worldPosRadius.w));
+	float4 extent = TransformWorldToHClip(GetCameraRelativePositionWS(TransformObjectToWorld(float3(0, 0, 0)) + cameraUp * v.worldPosRadius.w));
 
 	float2 screenPos = clip.xy / clip.w;
 	float2 extentPos = extent.xy / extent.w;
