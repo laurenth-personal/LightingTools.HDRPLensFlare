@@ -4,5 +4,18 @@
   "version": "0.1.0",
   "unity": "2019.4",
   "description": "Lens Flare for HDRP. \n\n\u25aa Scriptable object based \n\u25aa Game Object Based\n\u25aa How it can benefit the user",
-  "type": "sample"
+  "dependencies": {
+    "com.unity.render-pipelines.core": "7.5.1",
+    "com.unity.shadergraph": "7.5.1",
+    "com.unity.visualeffectgraph": "7.5.1",
+    "com.unity.render-pipelines.high-definition-config": "7.5.1"
+  },
+
+    "samples": [
+    {
+      "displayName": "LensFlare Textures",
+      "description": "Adds LensFlare Textures to your project.",
+      "path": "Samples~/Textures"
+    }
+  ]
 }
