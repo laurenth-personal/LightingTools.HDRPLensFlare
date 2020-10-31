@@ -2,6 +2,8 @@
 
 Lens Flare Asset and Lens Flare Renderer compatible with HDRP.
 
+This is an adaptation of the Lens Flares from the [Fontainebleau Demo](https://github.com/Unity-Technologies/FontainebleauDemo).
+
 ## How to use
 The Package Manager is a work in progress for Unity. Because of that, your package needs to meet these criteria to become an official Unity package:
 - In the project view
