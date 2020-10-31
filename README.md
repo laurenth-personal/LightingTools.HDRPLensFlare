@@ -13,3 +13,7 @@ The Package Manager is a work in progress for Unity. Because of that, your packa
   - Pick a texture with alpha
 - Create a gameobject and add a HDRPLensFlareRenderer component to it
   - Reference the lens flare you want to use
+
+## Disclaimer
+
+Still work in progress. I have seen some issues with distance fade. Don't hesitate to report issues if you find some.
